@@ -1,0 +1,30 @@
+@import "settings";
+@import "slider";
+@import "header";
+@import "main__goals";
+@import "our__project";
+@import "contact";
+@import "footer";
+@import "subfooter";
+@import "about";
+@import "back_to_top";
+@font-face {
+    font-family: 'TT Hoves_b';
+    src: url(/fonts/TTHoves-Bold.woff2);
+}
+@font-face {
+    font-family: 'TT Hoves_r';
+    src: url(/fonts/TTHoves-Regular.woff2);
+}
+@font-face {
+    font-family: 'TT Hoves_l';
+    src: url(/fonts/TTHoves-Light.woff2);
+}
+@font-face {
+    font-family: 'TT Hoves_m';
+    src: url(/fonts/TTHoves-Medium.woff2);
+}
+@font-face {
+    font-family: 'SF pro';
+    src: url(/fonts/SFProDisplay-Bold.woff2);
+}

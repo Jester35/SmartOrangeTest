@@ -1,0 +1,16 @@
+.subfooter {
+    background-color: #2C2C2C;
+    border-top: 1px solid rgba($color: #fff, $alpha: 0.1);
+    position: relative;
+}
+.subfooter__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subfooter__text {
+    font-size: 12px;
+    line-height: 1.8;
+    color: rgba(200, 200, 200, 0.5);
+    margin: 24px 0;
+}

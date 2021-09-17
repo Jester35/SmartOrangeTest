@@ -1,0 +1,77 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+// .header__logo {
+// }
+// .menu__icon {
+// }
+// .menu__body {
+    
+// }
+.menu__list {
+    display: flex;
+}
+.menu__list li{
+    margin-left: 60px;
+    transition: all .7s;
+    &:first-child{
+        margin: 0;
+    }
+    &:last-child{
+        margin-right: 130px;
+    }
+    width: inherit;
+    &:hover{
+        background-color: greenyellow;
+        transform: scale(1.2);
+    }
+}
+.menu__link {
+    text-transform: uppercase;
+    font-family: "TT Hoves_r";
+    position: relative;
+    width: inherit;
+    display: block;
+    font-size: 16px;
+}
+.bords{
+    position: relative;
+    display: block;
+    width: inherit;
+    color: #000;
+}
+.bords::before{
+    content: '';
+    display: block;
+    border-top: 1px solid #000;
+    position: absolute;
+    width: -webkit-fill-available;
+    opacity: 0;
+    transition: all .7s;
+}
+.bords::after{
+    content: '';
+    display: block;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    opacity: 0;
+    transition: all .7s;
+}
+.bords:hover::before{
+    opacity: 1;
+}
+.bords:hover::after{
+    opacity: 1;
+}

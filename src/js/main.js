@@ -1,0 +1,5 @@
+import '../index.html'
+import '../scss/main.scss'
+import '../js/slider.js'
+import '../js/prokrutka.js'
+import '../js/scroll_top.js'
