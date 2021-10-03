@@ -75,3 +75,19 @@
 .bords:hover::after{
     opacity: 1;
 }
+
+@media(max-width:1439px){
+    // header
+    .menu__list li{
+      margin-left: 45px;
+      &:last-child{
+        margin-right: 100px;
+      }
+    }
+    .menu__link{
+        font-size: 14px;
+    }
+    .header__logo{
+        padding-left: 15px;
+    }
+  }

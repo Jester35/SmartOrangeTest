@@ -60,8 +60,16 @@
   font-size: 16px;
   padding: 16px;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 ._about{
     font-family: 'TT Hoves_l';
     line-height: 1.5;
+}
+
+@media(max-width:1439px){
+    .about__info{
+        margin-left: 20px;
+    }
 }
